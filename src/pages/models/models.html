@@ -1,0 +1,13 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>Models</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+  <ion-list *ngFor="let unit of unitList">
+    <button (tap)="openUnit(unit)" ion-button icon-only clear>
+          {{ unit.name }}
+      </button>
+  </ion-list>
+</ion-content>

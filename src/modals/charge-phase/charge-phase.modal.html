@@ -1,0 +1,22 @@
+<ion-header>
+    <button (tap)="close()" ion-button icon-only clear>
+        <ion-icon name="ios-arrow-back"></ion-icon>
+    </button>
+</ion-header>
+
+<ion-content>
+    <div class="results">
+        <label>Charge Phase Command Abilities</label>
+        <ion-list *ngFor="let commandAbility of commandAbilitiesList">
+            <button ion-button icon-only clear>
+                {{ commandAbility.name }}
+            </button>
+        </ion-list>
+        <label>Charge Phase Abilities</label>
+        <ion-list *ngFor="let chargePhase of chargePhaseList">
+            <button ion-button icon-only clear>
+                {{ chargePhase.name }}
+            </button>
+        </ion-list>
+    </div>
+</ion-content>

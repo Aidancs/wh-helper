@@ -1,0 +1,122 @@
+[{
+		"name": "Brokk Grungsson",
+		"move": "12",
+		"save": "3",
+		"bravery": "8",
+		"wounds": "8",
+		"weapons": {
+
+
+		},
+		"description": "Brokk Grungsson, Lord-Magnate of Barak-Nar is a single model. Borne aloft in his magnificent custom-built dirigible suit, Grungsson deals death from afar with Grungsson’s Boast, the Magnate’s Charter and his mustache-mounted Aetherblasters. When he is called upon to trade blows with his enemies, he does so with his Aethermatic Saw.",
+		"abilities": [{
+				"name": "The Lord-Magnate Moves",
+				"phase": "charge",
+				"description": "If Brokk Grungsson ends a charge move within ½\" of any enemy units, pick one of those units and roll a dice. On a roll of 2 or more, that unit suffers D3 mortal wounds from the crushing impact of the Lord-Magnate’s charge."
+			},
+			{
+				"name": "Champion of Barak-Nar",
+				"phase": "shooting/combat",
+				"description": "You can re-roll hit and wound rolls of 1 for Brokk Grungsson if those attacks are directed against a Hero or Monster."
+			},
+			{
+				"name": "Supercharged Harness",
+				"phase": "combat",
+				"description": "Brokk Grungsson can supercharge his harness in the combat phase to give himself extra strength, but doing so can be hazardous. If Brokk Grungsson uses this ability, roll a dice. On a roll of 1, he suffers a mortal wound. On a roll of 3 or more, the Damage characteristic of his Aethermatic Saw is 3 rather than D3 until the end of the phase."
+			},
+			{
+				"name": "High Hitcher",
+				"phase": "movement",
+				"description": "Brokk Grungsson does not count towards the maximum number of Skyfarers that can be embarked on a Skyvessel, and is not counted for the Overburdened rule."
+			},
+			{
+				"name": "battleshock Test",
+				"phase": "battleshock",
+				"description": "If Brokk Grungsson ends a charge move within ½\" of any enemy units, pick one of those units and roll a dice. On a roll of 2 or more, that unit suffers D3 mortal wounds from the crushing impact of the Lord-Magnate’s charge."
+			},
+			{
+				"name": "shooting test",
+				"phase": "shooting",
+				"description": "If Brokk Grungsson ends a charge move within ½\" of any enemy units, pick one of those units and roll a dice. On a roll of 2 or more, that unit suffers D3 mortal wounds from the crushing impact of the Lord-Magnate’s charge."
+			}
+		],
+		"command_abilities": {
+			"name": "First Rule of Grungsson",
+			"phase": "charge",
+			"description": "If Brokk Grungsson uses this ability, he invokes his first and most significant commentary on the Code – ‘to the victor, the spoils’. Until your next hero phase, friendly Kharadron Overlords units within 18\" can charge even if they ran in the same turn."
+		}
+	},
+	{
+		"name": "Grokk Brungsson",
+		"move": "12",
+		"save": "3",
+		"bravery": "8",
+		"wounds": "8",
+		"weapons": {
+			"missle": [{
+					"name": "Grunggson's Boast",
+					"range": "18",
+					"attacks": "2",
+					"to_hit": "3",
+					"to_wound": "2",
+					"rend": "-1",
+					"damage": "D3"
+				},
+				{
+					"name": "Magnate's Charter",
+					"range": "18",
+					"attacks": "3",
+					"to_hit": "3",
+					"to_wound": "3",
+					"rend": "-1",
+					"damage": "1"
+				},
+				{
+					"name": "Aetherblasters saw",
+					"range": "9",
+					"attacks": "2",
+					"to_hit": "3",
+					"to_wound": "4",
+					"rend": "-",
+					"damage": "1"
+				}
+			],
+			"melee": {
+				"name": "Aehermatic Saw",
+				"range": "1",
+				"attacks": "4",
+				"to_hit": "3",
+				"to_wound": "2",
+				"rend": "-2",
+				"damage": "D3"
+			}
+		},
+		"description": "Grokk Brungsson, Lord-Magnate of Barak-Nar is a single model. Borne aloft in his magnificent custom-built dirigible suit, Brungsson deals death from afar with Brungsson’s Boast, the Magnate’s Charter and his mustache-mounted Aetherblasters. When he is called upon to trade blows with his enemies, he does so with his Aethermatic Saw.",
+		"abilities": [{
+				"name": "The Lord-Magnate Moves",
+				"phase": "charge",
+				"description": "If Grokk Brungsson ends a charge move within ½\" of any enemy units, pick one of those units and roll a dice. On a roll of 2 or more, that unit suffers D3 mortal wounds from the crushing impact of the Lord-Magnate’s charge."
+			},
+			{
+				"name": "Champion of Barak-Nar",
+				"phase": "shooting/combat",
+				"description": "You can re-roll hit and wound rolls of 1 for Grokk Brungsson if those attacks are directed against a Hero or Monster."
+			},
+			{
+				"name": "Supercharged Harness",
+				"phase": "combat",
+				"description": "Grokk Brungsson can supercharge his harness in the combat phase to give himself extra strength, but doing so can be hazardous. If Grokk Brungsson uses this ability, roll a dice. On a roll of 1, he suffers a mortal wound. On a roll of 3 or more, the Damage characteristic of his Aethermatic Saw is 3 rather than D3 until the end of the phase."
+			},
+			{
+				"name": "High Hitcher",
+				"phase": "movement",
+				"description": "Grokk Brungsson does not count towards the maximum number of Skyfarers that can be embarked on a Skyvessel, and is not counted for the Overburdened rule."
+			}
+		],
+		"command_abilities": {
+			"name": "First Rule of Brungsson",
+			"phase": "charge",
+			"description": "If Grokk Brungsson uses this ability, he invokes his first and most significant commentary on the Code – ‘to the victor, the spoils’. Until your next hero phase, friendly Kharadron Overlords units within 18\" can charge even if they ran in the same turn."
+		}
+	}
+]

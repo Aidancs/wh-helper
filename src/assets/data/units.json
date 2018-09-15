@@ -1,0 +1,145 @@
+[{
+		"id": 1,
+		"name": "Alarielle the Everqueen",
+		"move": 16,
+		"save": 3,
+		"bravery": 10,
+		"wounds": 16,
+		"alive": true,
+		"wounded": 16,
+		"number_of_models_in_unit": 1,
+		"allegiance": "Sylvaneth",
+		"activated": true,
+		"weapons": {
+
+		}
+	},
+	{
+		"id": 2,
+		"name": "Spirit of Durthu",
+		"move": 5,
+		"save": 3,
+		"bravery": 9,
+		"wounds": 12,
+		"alive": true,
+		"wounded": 12,
+		"number_of_models_in_unit": 1,
+		"allegiance": "Sylvaneth",
+		"activated": false,
+		"weapons": {
+
+		}
+	},
+	{
+		"id": 3,
+		"name": "Treelord Ancient",
+		"move": 5,
+		"save": 3,
+		"bravery": 9,
+		"wounds": 12,
+		"alive": true,
+		"wounded": 12,
+		"number_of_models_in_unit": 1,
+		"allegiance": "Sylvaneth",
+		"activated": true,
+		"weapons": {
+
+		}
+	},
+	{
+		"id": 4,
+		"name": "Treelord",
+		"move": 6,
+		"save": 3,
+		"bravery": 6,
+		"wounds": 12,
+		"alive": true,
+		"wounded": 12,
+		"number_of_models_in_unit": 1,
+		"allegiance": "Sylvaneth",
+		"activated": true,
+		"weapons": {
+
+		}
+	},
+	{
+		"id": 5,
+		"name": "Branchwraith",
+		"move": 7,
+		"save": 5,
+		"bravery": 8,
+		"wounds": 5,
+		"alive": true,
+		"wounded": 5,
+		"number_of_models_in_unit": 1,
+		"allegiance": "Sylvaneth",
+		"activated": true,
+		"weapons": {
+
+		}
+	},
+	{
+		"id": 6,
+		"name": "Branchwych",
+		"move": 7,
+		"save": 5,
+		"bravery": 8,
+		"wounds": 5,
+		"alive": true,
+		"wounded": 5,
+		"number_of_models_in_unit": 1,
+		"allegiance": "Sylvaneth",
+		"activated": true,
+		"weapons": {
+
+		}
+	},
+	{
+		"id": 7,
+		"name": "Dryads",
+		"move": 7,
+		"save": 5,
+		"bravery": 6,
+		"wounds": 1,
+		"alive": true,
+		"wounded": 10,
+		"number_of_models_in_unit": 10,
+		"allegiance": "Sylvaneth",
+		"activated": true,
+		"weapons": {
+
+		}
+	},
+	{
+		"id": 8,
+		"name": "Tree Revenants",
+		"move": 5,
+		"save": 5,
+		"bravery": 6,
+		"wounds": 1,
+		"alive": true,
+		"wounded": 5,
+		"number_of_models_in_unit": 5,
+		"allegiance": "Sylvaneth",
+		"activated": true,
+		"weapons": {
+
+		}
+	},
+	{
+		"id": 9,
+		"name": "Judicators",
+		"move": 5,
+		"save": 4,
+		"bravery": 7,
+		"wounds": 2,
+		"alive": true,
+		"wounded": 10,
+		"number_of_models_in_unit": 5,
+		"allegiance": "Sylvaneth",
+		"activated": true,
+		"weapons": {
+
+		}
+	}
+]

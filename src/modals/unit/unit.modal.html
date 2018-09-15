@@ -1,0 +1,23 @@
+<ion-header>
+  <button (tap)="close()" ion-button icon-only clear>
+        <ion-icon name="ios-arrow-back"></ion-icon>
+    </button>
+</ion-header>
+
+<ion-content>
+  <div class="results">
+    <h1>{{unit.name}}</h1>
+    <h2>Move: {{unit.move}}</h2>
+    <h2>Save: {{unit.save}}</h2>
+    <h2>Bravery: {{unit.bravery}}</h2>
+    <h2>Wounds: {{unit.wounded}}</h2>
+    <h2 *ngIf="extra">Number of models: {{unit.number_of_models_in_unit}}</h2>
+    <!-- <h2>Activated: {{unit.activated}}</h2>        for testing                 -->
+    <button (tap)="wounded()" ion-button icon-only clear>
+      Wounded
+    </button>
+    <button (tap)="heal()" ion-button icon-only clear>
+      Heal
+    </button>
+  </div>
+</ion-content>

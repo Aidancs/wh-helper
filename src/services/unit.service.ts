@@ -16,6 +16,6 @@ export class UnitService extends BaseHttpService {
 	}
 
 	getKoJSon(): any {
-		return this.http.get('assets/data/ko.json').map(res => res.json());
+		return this.http.get('assets/data/units.json').map(res => res.json());
 	}
 }
